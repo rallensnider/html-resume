@@ -334,7 +334,7 @@ li{
   position: relative;
   margin-left: -4.25pt;
   /* content: '• '; */
-  content: '◘ ';
+  content: '❍ ';
   color: #93a1a1;
 }
 
