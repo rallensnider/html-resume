@@ -1,3 +1,24 @@
+<!-- Solarized palette -->
+<!-- by Ethan Schoonover -->
+
+$base03:    #002b36;
+$base02:    #073642;
+$base01:    #586e75;
+$base00:    #657b83;
+$base0:     #839496;
+$base1:     #93a1a1;
+$base2:     #eee8d5;
+$base3:     #fdf6e3;
+$yellow:    #b58900;
+$orange:    #cb4b16;
+$red:       #dc322f;
+$magenta:   #d33682;
+$violet:    #6c71c4;
+$blue:      #268bd2;
+$cyan:      #2aa198;
+$green:     #859900;
+
+
 @page{
   size: letter portrait;
   margin: 0;
@@ -21,7 +42,7 @@
   --decorator-outer-offset-left: -5.5px;
   --decorator-border-width: 1px;
   --decorator-outer-dim: 9px;
-  --decorator-border: 1px solid #ccc;
+  --decorator-border: 1px solid $base00;
 
   --row-blocks-padding-top: 5pt;
   --date-block-width: 0.6in;
@@ -36,13 +57,13 @@ body{
   font-family: "Open Sans", sans-serif; 
   font-weight: 300;
   line-height: 1.3;
-  color: #444;
+  color: $base3;
   hyphens: auto;
 }
 
 h1, h2, h3{
   margin: 0;
-  color: #000;
+  color: $blue;
 }
 
 li{
@@ -62,7 +83,7 @@ li{
   width: var(--sidebar-width);
   height: 100%;
   padding: 0.6in var(--sidebar-horizontal-padding);
-  background-color: #f2f2f2;
+  background-color: $base2;
   font-size: 8.5pt;
 }
 
@@ -108,7 +129,7 @@ li{
   left: calc((var(--date-block-width) + var(--decorator-horizontal-margin)));
   font-weight: 400;
   font-size: 11pt;
-  color: #555;
+  color: $base02;
 }
 
 #main h2 > i{
@@ -118,7 +139,7 @@ li{
   position: absolute;
   left: var(--main-blocks-title-icon-offset-left);
   z-index: 1; /* over decorator line */
-  color: #444;
+  color: $base03;
 }
 
 #main h2::after{ /* extends the decorator line */
@@ -208,7 +229,7 @@ li{
   width: var(--decorator-outer-dim);
   height: var(--decorator-outer-dim);
   border-radius: calc(var(--decorator-outer-dim) / 2);
-  background-color: #fff;
+  background-color: $base3;
 }
 
 .decorator::after{
@@ -220,7 +241,7 @@ li{
   width: calc(var(--decorator-outer-dim) - (var(--decorator-border-width) * 2));
   height: calc(var(--decorator-outer-dim) - (var(--decorator-border-width) * 2));
   border-radius: calc((var(--decorator-outer-dim) - (var(--decorator-border-width) * 2)) / 2);
-  background-color: #555;
+  background-color: $cyan;
 }
 
 .blocks:last-child .decorator{ /* slightly shortens it */
@@ -236,7 +257,7 @@ li{
 }
 
 .details header{
-  color: #000;
+  color: $base3;
 }
 
 .details h3{
