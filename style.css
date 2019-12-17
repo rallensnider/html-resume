@@ -1,6 +1,6 @@
-<!-- Solarized palette -->
-<!-- by Ethan Schoonover -->
-
+/* Solarized palette */
+/* by Ethan Schoonover */
+/* 
 $base03:    #002b36;
 $base02:    #073642;
 $base01:    #586e75;
@@ -17,7 +17,7 @@ $violet:    #6c71c4;
 $blue:      #268bd2;
 $cyan:      #2aa198;
 $green:     #859900;
-
+ */
 
 @page{
   size: letter portrait;
@@ -42,7 +42,7 @@ $green:     #859900;
   --decorator-outer-offset-left: -5.5px;
   --decorator-border-width: 1px;
   --decorator-outer-dim: 9px;
-  --decorator-border: 1px solid $base00;
+  --decorator-border: 1px solid #93a1a1;
 
   --row-blocks-padding-top: 5pt;
   --date-block-width: 0.6in;
@@ -54,16 +54,29 @@ body{
   width: var(--page-width);
   height: var(--page-height);
   margin: 0;
-  font-family: "Open Sans", sans-serif; 
+  font-family: 'Open Sans', open-sans, sans-serif; 
   font-weight: 300;
   line-height: 1.3;
-  color: $base3;
+  color: #002b36;
   hyphens: auto;
 }
 
-h1, h2, h3{
+a {
+  color: #cb4b16;
+}
+
+
+h1 {
+color: #859900;
+font-weight: 700;
+}
+
+h2, h3 {
+color: #2aa198;
+}
+
+h1, h2, h3 {
   margin: 0;
-  color: $blue;
 }
 
 li{
@@ -83,7 +96,7 @@ li{
   width: var(--sidebar-width);
   height: 100%;
   padding: 0.6in var(--sidebar-horizontal-padding);
-  background-color: $base2;
+  background-color: #eee8d5;
   font-size: 8.5pt;
 }
 
@@ -129,7 +142,7 @@ li{
   left: calc((var(--date-block-width) + var(--decorator-horizontal-margin)));
   font-weight: 400;
   font-size: 11pt;
-  color: $base02;
+  color: #268bd2;
 }
 
 #main h2 > i{
@@ -139,7 +152,7 @@ li{
   position: absolute;
   left: var(--main-blocks-title-icon-offset-left);
   z-index: 1; /* over decorator line */
-  color: $base03;
+  color: #93a1a1;
 }
 
 #main h2::after{ /* extends the decorator line */
@@ -229,7 +242,7 @@ li{
   width: var(--decorator-outer-dim);
   height: var(--decorator-outer-dim);
   border-radius: calc(var(--decorator-outer-dim) / 2);
-  background-color: $base3;
+  background-color: #93a1a1;
 }
 
 .decorator::after{
@@ -241,7 +254,7 @@ li{
   width: calc(var(--decorator-outer-dim) - (var(--decorator-border-width) * 2));
   height: calc(var(--decorator-outer-dim) - (var(--decorator-border-width) * 2));
   border-radius: calc((var(--decorator-outer-dim) - (var(--decorator-border-width) * 2)) / 2);
-  background-color: $cyan;
+  background-color: #268bd2;
 }
 
 .blocks:last-child .decorator{ /* slightly shortens it */
@@ -257,7 +270,7 @@ li{
 }
 
 .details header{
-  color: $base3;
+  color: #002b36;
 }
 
 .details h3{
@@ -353,7 +366,7 @@ li{
 #contact ul{
   margin-top: 0.05in;
   padding-left: 0;
-  font-family: "Source Code Pro";
+  font-family: 'Source Code Pro', monospace;
   font-weight: 400;
   line-height: 1.75;
 }
@@ -380,12 +393,13 @@ li{
   font-style: italic;
   line-height: 1.1;
   text-align: right;
-  color: #777;
+  color: #657b83;
 }
 
 #disclaimer code{
-  color: #666;
-  font-family: "Source Code Pro";
+  color: #839496;
+  font-family: 'Source Code Pro', monospace;
   font-weight: 400;
   font-style: normal;
 }
+
