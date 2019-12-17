@@ -102,7 +102,7 @@ li{
 /* main */
 
 /** big title **/
-#title, h1 {
+#title, h1, h2 {
   text-transform: uppercase;
 }
 
