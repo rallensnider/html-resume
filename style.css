@@ -357,9 +357,10 @@ li{
 
 /* sidebar */
 
-#sidebar h1{
+#sidebar h1, #sidebar h2 {
   font-weight: 400;
   font-size: 11pt;
+  color: #2aa198;
 }
 
 .side-block{
