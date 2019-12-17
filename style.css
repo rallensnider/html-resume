@@ -314,6 +314,7 @@ li{
   font-style: normal;
   text-decoration: inherit;
   content: "\f3c5";
+  color: #93a1a1;
 }
 
 /***** fine-tunes on the lists... *****/
@@ -333,6 +334,7 @@ li{
   margin-left: -4.25pt;
   /* content: '• '; */
   content: '◘ ';
+  color: #93a1a1;
 }
 
 .details .concise ul{
@@ -374,6 +376,7 @@ li{
 #contact li > i{
   width: 9pt; /* for text alignment */
   text-align: right;
+  color: #93a1a1;
 }
 
 #skills{
