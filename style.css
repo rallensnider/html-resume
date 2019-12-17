@@ -66,6 +66,10 @@ a {
   font-family: 'Source Code Pro', monospace;
 }
 
+span.fancy {
+font-family: 'IBM Plex Serif', Baskerville, 'Goudy Old Style', Palatino, 'Book Antiqua', serif;
+}
+
 h1 {
 color: #859900;
 }
@@ -310,7 +314,7 @@ li{
   position: relative;
   right: 3pt;
   top: 0.25pt;
-  font-family: "Font Awesome 5 Free";
+  font-family: 'Font Awesome 5 Free';
   font-weight: normal;
   font-style: normal;
   text-decoration: inherit;
