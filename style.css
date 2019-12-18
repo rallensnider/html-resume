@@ -427,7 +427,8 @@ text-indent: 14pt;
 
 #colophon{
   position: absolute;
-  bottom: var(--sidebar-horizontal-padding);
+  /* bottom: var(--sidebar-horizontal-padding); */
+  bottom: 0.3in;
   right: var(--sidebar-horizontal-padding);
   font-size: 7.5pt;
   font-style: italic;
