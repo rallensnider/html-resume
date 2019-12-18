@@ -140,6 +140,7 @@ li{
   font-size: 8pt;
   font-weight: 300;
   color: #93a1a1;
+  text-transform: none;
 }
 
 /*** categorial blocks ***/
