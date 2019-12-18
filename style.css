@@ -415,7 +415,7 @@ text-indent: 14pt;
   font-style: italic;
   line-height: 1.1;
   text-align: right;
-  color: #657b83;
+  color: #93a1a1;
 }
 
 #colophon code{
@@ -423,5 +423,10 @@ text-indent: 14pt;
   font-family: 'Source Code Pro', monospace;
   font-weight: 400;
   font-style: normal;
+}
+
+#colophon q {
+color: #b58900;
+quotes: none;
 }
 
