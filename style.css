@@ -67,7 +67,7 @@ a {
 }
 
 strong {
-color: #073642;
+color: #002b36;
 font-weight: bold;
 }
 
@@ -79,12 +79,12 @@ font-size: 110%;
 }
 
 h1 {
-color: #859900;
+color: #dc322f;
 text-transform: capitalize;
 }
 
 h2, h3 {
-color: #2aa198;
+color: #073642;
 }
 
 h1, h2, h3 {
@@ -156,7 +156,7 @@ li{
   left: calc((var(--date-block-width) + var(--decorator-horizontal-margin)));
   font-weight: 400;
   font-size: 11pt;
-  color: #268bd2;
+  color: #073642;
 }
 
 #main h2 > i{
@@ -373,7 +373,7 @@ li{
 #sidebar h1, #sidebar h2 {
   font-weight: 400;
   font-size: 11pt;
-  color: #2aa198;
+  color: #073642;
 }
 
 .side-block{
