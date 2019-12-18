@@ -394,6 +394,10 @@ li{
   color: #93a1a1;
 }
 
+.after-break {
+text-indent: 14pt;
+}
+
 #skills{
   line-height: 1.5;
 }
