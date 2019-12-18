@@ -114,6 +114,10 @@ li{
 
 /* main */
 
+#objectives {
+font-size: 11pt;
+}
+
 /** big title **/
 #title, h2 {
   text-transform: uppercase;
