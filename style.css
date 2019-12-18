@@ -80,6 +80,7 @@ font-size: 110%;
 
 h1 {
 color: #859900;
+text-transform: capitalize;
 }
 
 h2, h3 {
@@ -114,7 +115,7 @@ li{
 /* main */
 
 /** big title **/
-#title, h1, h2 {
+#title, h2 {
   text-transform: uppercase;
 }
 
@@ -140,7 +141,6 @@ li{
   font-size: 8pt;
   font-weight: 300;
   color: #93a1a1;
-  text-transform: none;
 }
 
 /*** categorial blocks ***/
