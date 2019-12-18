@@ -66,6 +66,11 @@ a {
   font-family: 'Source Code Pro', monospace;
 }
 
+strong {
+color: #2aa198;
+font-weight: bold;
+}
+
 span.fancy {
 font-family: Baskerville, 'Goudy Old Style', Palatino, 'Book Antiqua', serif;
 font-weight: normal;
