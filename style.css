@@ -327,7 +327,7 @@ li{
   font-weight: normal;
   font-style: normal;
   text-decoration: inherit;
-  content: "\f3c5";
+  content: '\f3c5';
   color: #93a1a1;
 }
 
@@ -378,6 +378,24 @@ li{
 
 .side-block{
   margin-top: 0.5in; 
+}
+
+#about {
+font-size: 11pt;
+color: #268bd2;
+}
+
+#about p::before {
+  display: inline-block;
+  position: relative;
+  right: 3pt;
+  top: 0.25pt;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+  content: '\f05a';
+  color: #93a1a1;
 }
 
 #contact ul{
