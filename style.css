@@ -407,7 +407,7 @@ text-indent: 14pt;
   padding: 0;
 }
 
-#disclaimer{
+#colophon{
   position: absolute;
   bottom: var(--sidebar-horizontal-padding);
   right: var(--sidebar-horizontal-padding);
@@ -418,7 +418,7 @@ text-indent: 14pt;
   color: #657b83;
 }
 
-#disclaimer code{
+#colophon code{
   color: #839496;
   font-family: 'Source Code Pro', monospace;
   font-weight: 400;
