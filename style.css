@@ -183,11 +183,11 @@ li{
   top: 2pt;
 }
 
-#main h2 > .fa-suitcase{
+#main h2 > .fa-suitcase {
   top: 1pt;
 }
 
-#main h2 > .fa-folder-open{
+#main h2 > .fa-toolbox {
   top: 1.5pt;
 }
 
@@ -342,7 +342,7 @@ li{
   margin-left: -4.25pt;
   /* content: '• '; */
   content: '❍ ';
-  color: #93a1a1;
+  color: #268bd2;
 }
 
 .details .concise ul{
